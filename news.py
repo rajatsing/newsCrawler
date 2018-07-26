@@ -1,3 +1,5 @@
+# Hello World program in Python
+    
 import requests
 from bs4 import *
 def LatestNews(topic):
@@ -22,9 +24,9 @@ def start():
     LatestNews(topic)
     more=input("Want to serach more?: "+"  y/n:")
     if(more=="y"):
-         start()
+        start()
     else:
-            print("byee")
+        print("byee")
 
 
 start()
